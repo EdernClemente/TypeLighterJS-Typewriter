@@ -26,7 +26,7 @@ Place the <code>.js file</code> in your folder and import it after the <code>bod
 ```html
 <script src ="your file path/typelighter.min.js"></script>
 ```
-Add a new typewriter with a <code>span</code> tag
+Add a new typewriter with a <code>span</code> tag.
 
 ```html
 <p><span class="typeWriter" data-text='["foo"]'></span></p>
