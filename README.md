@@ -4,8 +4,7 @@
 
 **The world's lightest yet most powerful JS TypeWriter out there.**<br>
 For more information, please, check [typelighterjs.com](https://www.edernclemente.com/plugin/typelighterjs).<br>
->[Download ZIP](https://github.com/EdernClemente/TypeLighterJS/blob/master/typelighterjs.zip?raw=true)<br>
->[Download RAR](https://github.com/EdernClemente/TypeLighterJS/blob/master/typelighterjs.rar?raw=true)
+>[Download ZIP](https://github.com/EdernClemente/TypeLighterJS/archive/master.zip)
 
 # Description :
 
