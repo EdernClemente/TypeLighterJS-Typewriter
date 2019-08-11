@@ -2,8 +2,8 @@
 <br>
 <img width="100%" src="images/typelighter.gif">
 
-**The world's lightest yet most powerful JS TypeWriter out there.**<br>
-For more information, please, check [typelighterjs.com](https://www.edernclemente.com/plugin/typelighterjs).<br>
+**The world's lightest yet most powerful JS TypeWriter out there. (Without JQUERY)**<br>
+For more information, please, check [typelighterjs.com](https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/typelighter.gif).<br>
 >[Download ZIP](https://github.com/EdernClemente/TypeLighterJS/archive/master.zip)
 
 # Description :
@@ -15,7 +15,7 @@ Most of them are predefined, but you can change their values using the **data at
 # Files :
 **There are three files** in the compressed folder :
 
-- Readme.txt
+- README.md
 - typelighter.js<br>
 - typelighter.min.js -> minified file
 
@@ -36,7 +36,7 @@ Add a new typewriter with a <code>span</code> tag :
 ```html
 <p><span class="typeWriter" data-text='["foo"]'></span></p>
 ```
-<img width="80%" src="images/foo.gif">
+<img width="80%" src="https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/foo.gif">
 
 # Properties list :
 | Property          | Default value | Use |
@@ -55,12 +55,12 @@ Add a new typewriter with a <code>span</code> tag :
 ```html
 <p><span class="typeWriter" data-checkVisible="true"  data-speed="2" data-text='["foo", "example"]'></span></p>
 ```
-<img width="80%" src="images/fooexample.gif">
+<img width="80%" src="https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/fooexample.gif">
 
 ```html
 <p>Hello <span class="typeWriter" data-end="3000" data-text='["guys !", "world !"]'></span></p>
 ```
-<img width="80%" src="images/guysworld.gif">
+<img width="80%" src="https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/guysworld.gif">
 
 # CSS :
 The CSS is **automatically injected** in the DOM for convenience, though you could also paste it in your CSS file :
