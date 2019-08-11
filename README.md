@@ -22,11 +22,17 @@ Most of them are predefined, but you can change their values using the **data at
 
 # Installation :
 
-Place the <code>.js file</code> in your folder and import it after the <code>body tag</code>
+Place the <code>.js file</code> in your folder and import it after the <code>body tag</code> :
 ```html
 <script src ="your file path/typelighter.min.js"></script>
 ```
-Add a new typewriter with a <code>span</code> tag.
+
+You can also use the CDN version :
+```html
+<script src ="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+```
+
+Add a new typewriter with a <code>span</code> tag :
 
 ```html
 <p><span class="typeWriter" data-text='["foo"]'></span></p>
@@ -34,16 +40,16 @@ Add a new typewriter with a <code>span</code> tag.
 <img width="80%" src="images/foo.gif">
 
 # Properties list :
-| Property | Default value | Use |
-| --- | --- | --- |
-| data-text | Null | The array holding the strings to be written one after the other. |
-| data-speed | 1 | The writing speed is proportionnal to this integer. |
-| data-start | 500 (ms) | A delay before writing the next string. |
-| data-end | 2000 (ms) | A delay before deleting the current string. |
-| data-random | True | When enabled, the TypeWriter waits for a random time before writing or deleting the next character. |
-| data-max | Infinity | The maximum number of full iterations before the TypeWriter stops itself. |
-| data-dltSpeed | True | When enabled, a given string is deleted twice as fast as it is written. |
-| data-checkVisible | False | When enabled, the animation begins right when the element appears in the viewport. |
+| Property          | Default value | Use |
+| ---               | ---           | --- |
+| data-text         | Null          | The array holding the strings to be written one after the other. |
+| data-speed        | 1             | The writing speed is proportionnal to this integer. |
+| data-start        | 500 (ms)      | A delay before writing the next string. |
+| data-end          | 2000 (ms)     | A delay before deleting the current string. |
+| data-random       | True          | When enabled, the TypeWriter waits for a random time before writing or deleting the next character. |
+| data-max          | Infinity      | The maximum number of full iterations before the TypeWriter stops itself. |
+| data-dltSpeed     | True          | When enabled, a given string is deleted twice as fast as it is written. |
+| data-checkVisible | False         | When enabled, the animation begins right when the element appears in the viewport. |
 
 # Example :
 
