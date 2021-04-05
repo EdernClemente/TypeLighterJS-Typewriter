@@ -3,7 +3,6 @@
 <img width="100%" src="https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/typelighter.gif">
 
 **The world's lightest yet most powerful JS TypeWriter out there. (Without JQUERY)**<br>
-For more information, please, check [typelighterjs.com](https://edernclemente.com/plugin/typelighterjs).<br>
 >[Download ZIP](https://github.com/EdernClemente/TypeLighterJS/archive/master.zip)
 
 # Description :
