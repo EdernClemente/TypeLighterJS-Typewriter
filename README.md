@@ -1,4 +1,4 @@
-# TypeLighter.js - Just 1.04KB gzip - 12x lighter
+# TypeLighter.js - Just 1.04KB gzip
 <br>
 <img width="100%" src="https://raw.githubusercontent.com/EdernClemente/TypeLighterJS/master/images/typelighter.gif">
 
