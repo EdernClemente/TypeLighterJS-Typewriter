@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto";
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0)), url(../images/bg.JPG);
+    background-repeat: no-repeat;
+    background-size: 100% 70%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.container {
+    width: 1230px;
+    margin: auto;
+}
+
+.brand img {
+    width: 60px; height: 60px;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.link li {
+    margin: 0 30px 0 30px;
+}
+
+.link a {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header .button {
+    border: 1px solid #a4a4ff;
+    padding: 7px 15px 7px 15px;
+    border-radius: 50px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/*top part*/
+
+.top-part {
+    
+ height: 85vh;    
+}
+
+.top-part img {
+    width: 750px;
+    position: absolute;
+    top: 170px;
+    right: 90px;
+    z-index: 0;
+    box-shadow: 0 1px 30px black;
+    cursor: pointer;
+}
+
+.top-part h1 {
+    font-size: 4.3em;
+    color: white;
+    font-weight: normal;
+    position: absolute;
+    top: 200px;
+    letter-spacing: 2px;
+    width: 800px;
+    z-index: 1;
+}
+
+.top-part p {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: 410px;
+    width: 850px;
+    z-index: 1;
+}
+
+/*Bottom part*/
+
+.bottom-part {
+    background-color: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-part .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-part h2 {
+    font-size: 3.8em;
+    font-family: "courrier";
+    color: black;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.bottom-part p {
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+    max-width: 1000px;
+}
+
+.bottom-part p:last-child {
+    font-size: 1.6em;
+    color: black;
+}
+
+.bottom-part .button {
+    border: 2px solid black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 50px;
+    font-size: 1em;
+    color: black;
+    cursor: pointer;
+}
+
+.bottom-part a {
+   font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
