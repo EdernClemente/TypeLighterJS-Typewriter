@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--/
+╔╦╦╦═╦╗╔═╦═╦══╦═╗
+║║║║╩╣╚╣═╣║║║║║╩╣
+╚══╩═╩═╩═╩═╩╩╩╩═╝
+/-->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0 />
+    <title>TypeLighter.js | The world's lightest yet most powerful JS Typewriter</title>
+    <meta name="description" content="Take a stride into the world of dynamic and appealing JS TypeWriters. You can be sure that you will never even think of looking back." />
+    <meta name="language" content="en" />
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <!--favicon part-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">		
+    <meta name="msapplication-TileColor" content="#0c2644">
+    <meta name="theme-color" content="#f5f5f5">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="navbar-brand">
+                <img src="images/logoTypeLighter.js.png" alt="Logo">
+                <p><strong>TypeLighter.js</strong></p>
+            </div>
+            <nav class="navbar-nav">
+                <ul>
+                    <li><a href="#howtouse">How to use it?</a></li>
+                    <li><a href="https://github.com/EdernClemente/TypeLighterJS/archive/master.zip" class="btn-fill btn-black">Download</a></li>
+                    <li><a href="#" class="btn-fill btn-red">Enjoy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="bg-yellow">
+            <div class="container">
+                <h1>TypeLighter.js</h1>
+                <p>The world's lightest yet most powerful JS TypeWriter<span class="typeWriter" data-start="1500" data-speed="1.5" data-max="2.5" data-text='[" out there.", " of the world."]'></span></p>
+                <p class="sign">by Edern Clemente.</p>
+            </div>
+        </div>
+        <div class="container flex-center">
+            <a href="https://github.com/EdernClemente/TypeLighterJS/archive/master.zip" class="btn-fill btn-black btn-big relative">Free Download</a>
+            <p>The original typing experience. Without the noise.</p>
+        </div>
+    </section>
+    
+    <section class="container number-part">
+        <h3 class="txt-center"><strong>Microscopic weight. Tremendous versatility.</strong></h3>
+        <div class="column-wrap">
+            <div class="column w-50">
+                <p class="key-number"><strong><span class="typeWriter" data-checkVisible="true" data-start="500" data-max="0.5" data-text='["1.04kB"]'></span></strong></p>
+                <p>worth of marvellous features.</p>
+            </div>
+            <div class="column w-50">
+                <p class="key-number"><strong><span class="typeWriter" data-checkVisible="true" data-start="500" data-max="0.5" data-text='["12x"]'></span></strong></p>
+                <p>lighter than its competitors.</p>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray" id="howtouse">
+        <div class="container">
+            <h2>How to use it?</h2>
+            <div class="column-wrap">
+                <div class="column w-65">
+                    <div class="console">
+                        <div>
+                            <span class="dot red-dot"></span>
+                            <span class="dot orange-dot"></span>
+                            <span class="dot green-dot"></span>
+                        </div>
+                        <p><span class="green">//Place the .js file in your folder and import it after the body tag</span><br><br>
+                            &#60;<span class="red">script</span><span class="green"> src</span> =<span class="orange">&#34;path/typelighter.min.js&#34;</span>&#62;&#60;/<span class="red">script</span>&#62;<br><br>
+                            <span class="green">//You can also use the CDN version :</span><br><br>
+                            &#60;<span class="red">script</span><span class="green"> src</span> =<span class="orange">&#34;https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js&#34;</span>&#62;&#60;/<span class="red">script</span>&#62;<br><br>
+                            <span class="green">//Add a new typewriter</span><br><br>
+                            &#60;<span class="red">span</span> <span class="green">class</span>=<span class="orange">&#34;typeWriter&#34;</span> <span class="green">data-text</span>=<span class="orange">'["foo"]'</span>&#62;&#60;/<span class="red">span</span>&#62;</p>
+                    </div>
+                </div>
+                <div class="column w-35 vertical-align">
+                    <h4><span class="typeWriter" data-checkVisible="true" data-speed="2" data-start="500" data-max="0.5" data-text='["Easy to install."]'></span></h4>
+                    <p>In order to install <strong>TypeLighter.js</strong>, you just have to import it using a script tag. Once done, use the <strong>typeWriter</strong> class to create new dynamically animated elements. The CSS is automatically injected in the DOM for convenience, though you could also paste it in your CSS file.</p>
+                </div>
+            </div>
+            <div class="column-wrap">
+                <div class="column w-35 vertical-align">
+                    <h4>Deeply <span class="typeWriter" data-checkVisible="true" data-speed="2" data-start="500" data-max="1.5" data-text='["satisfying.", "customizable."]'></span></h4>
+                    <p>With this plugin, eight properties allow you to <strong>fine-tune</strong> the experience you want to share with your users. Most of them are predefined, but you can change their values using the data attribute.</p>
+                </div>
+                <div class="column w-65">
+                    <div class="console align-right">
+                        <div>
+                            <span class="dot red-dot"></span>
+                            <span class="dot orange-dot"></span>
+                            <span class="dot green-dot"></span>
+                        </div>
+                        <p><span class="green">//Set properties with the data tag to tailor your effect</span><br><br>
+                            &#60;<span class="red">p</span>&#62;Deeply &#60;<span class="red">span</span> <span class="green">class</span>=<span class="orange">&#34;typeWriter&#34;</span> <span class="green">data-max</span>=<span class="orange">"1.5"</span> <span class="green">data-text</span>=<span class="orange">'["satisfying.","customizable."]'</span>&#60;/<span class="red">span</span>&#62;&#60;/<span class="red">p</span>&#62;<br><br>
+                            <span class="green">//Disable random writing</span><br><br>
+                            &#60;<span class="red">p</span>&#62;Deeply &#60;<span class="red">span</span> <span class="green">class</span>=<span class="orange">&#34;typeWriter&#34;</span> <span class="green">data-random</span>=<span class="orange">&#34;false&#34;</span> <span class="green">data-text</span>=<span class="orange">'["satisfying."]'</span>&#62;&#60;/<span class="red">span</span>&#62;&#60;/<span class="red">p</span>&#62;
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container table-part">
+        <h2>Properties list</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Default value</th>
+                    <th>Use</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>data-text</td>
+                    <td>Null</td>
+                    <td>The array holding the strings to be written one after the other.</td>
+                </tr>
+                <tr>
+                    <td>data-speed</td>
+                    <td>1</td>
+                    <td>The writing speed is proportionnal to this integer.</td>
+                </tr>
+                <tr>
+                    <td>data-start</td>
+                    <td>500 (ms)</td>
+                    <td>A delay before writing the next string.</td>
+                </tr>
+                <tr>
+                    <td>data-end</td>
+                    <td>2000 (ms)</td>
+                    <td>A delay before deleting the current string.</td>
+                </tr>
+                <tr>
+                    <td>data-random</td>
+                    <td>True</td>
+                    <td>When enabled, the TypeWriter waits for a random time before writing or deleting the next character.</td>
+                </tr>
+                <tr>
+                    <td>data-max</td>
+                    <td>Infinity</td>
+                    <td>The maximum number of full iterations before the TypeWriter stops itself.</td>
+                </tr>
+                <tr>
+                    <td>data-dltSpeed</td>
+                    <td>True</td>
+                    <td>When enabled, a given string is deleted twice as fast as it is written.</td>
+                </tr>
+                <tr>
+                    <td>data-checkVisible</td>
+                    <td>False</td>
+                    <td>When enabled, the animation begins right when the element appears in the viewport.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="bg-yellow flex-center market-part">
+        <h2><span class="typeWriter" data-checkVisible="true" data-speed="2" data-start="500" data-max="0.5" data-text='["Let&#39s get started"]'></span></h2>
+        <p>Take a stride into the world of dynamic and appealing web design. You can be sure that you will never even think of looking back.</p>
+        <a href="https://github.com/EdernClemente/TypeLighterJS/archive/master.zip" class="btn-fill btn-black btn-big">Free download</a>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="column-wrap">
+                <div class="column w-33 footer-paragraph">
+                    <p>The world's lightest yet most powerful JS TypeWriter out there.</p>
+                </div>
+                <div class="column w-33">
+                    <a href="#" class="btn-fill btn-red">Enjoy</a>
+                </div>
+                <div class="column w-33 flex-end">
+                    <div>
+                        <img src="images/logoTypeLighter.js.white.png" alt="White logo">
+                        <p><strong>TypeLighter.js</strong></p>
+                    </div>
+                    <a href="#howtouse">How to use it?</a>
+                </div>
+            </div>
+            <div class="social-network">
+                <a href="#"><img src="images/facebook.png" alt="logo"></a>
+                <a href="https://github.com/EdernClemente"><img src="images/github.png" alt="logo"></a>
+                <a href="#"><img src="images/twitter.png" alt="logo"></a>
+            </div>
+            <p>© 2021 TypeLighter.js by Edern Clemente.</p>
+        </div>
+    </footer>
+</body>
+<script src="js/typelighter.min.js"></script>
+</html>
